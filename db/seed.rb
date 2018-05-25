@@ -20,3 +20,5 @@ puts "Test 3"
 puts Entry.order("name DESC")
 puts "Test 4"
 puts Entry.order("name ASC, phone_number DESC")
+puts "Test 5"
+puts Entry.join()
